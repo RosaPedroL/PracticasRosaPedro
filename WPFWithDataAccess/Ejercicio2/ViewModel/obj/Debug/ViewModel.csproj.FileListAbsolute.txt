@@ -13,3 +13,12 @@ C:\Users\AngelEspinoza\Desktop\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\
 C:\Users\AngelEspinoza\Desktop\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
 C:\Users\AngelEspinoza\Desktop\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.dll
 C:\Users\AngelEspinoza\Desktop\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\bin\Debug\Model.dll
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\bin\Debug\Model.pdb
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.csproj.AssemblyReference.cache
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete

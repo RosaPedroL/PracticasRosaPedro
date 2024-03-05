@@ -17,6 +17,8 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="30"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
@@ -25,46 +27,53 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Label Content="Registro de alumnos" Grid.Column="1"
-               Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center"
+               Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center"
                FontWeight="Bold" FontSize="25"></Label>
-
-        <Label Content="Nombre" Grid.Row="1" Grid.Column="0"
+        <Label Content="Id" Grid.Row="1" Grid.Column="0"
+              HorizontalAlignment="Center" VerticalAlignment="Center"
+              FontSize="15"></Label>
+        <TextBox Text="{Binding Id}" Grid.Row="1" Grid.Column="1" 
+                Width="150" Margin="5,20,5,20" FontWeight="Bold" ></TextBox>
+        <Label Content="Nombre" Grid.Row="2" Grid.Column="0"
                HorizontalAlignment="Center" VerticalAlignment="Center"
                FontSize="15"></Label>
-        <TextBox Text="{Binding Nombre}" Grid.Row="1" Grid.Column="1" Width="150"
+        <TextBox Text="{Binding Nombre}" Grid.Row="2" Grid.Column="1" Width="150"
                  Margin="10,20,10,20"></TextBox>
         
-        <Label Content="Apellidos" Grid.Row="2" Grid.Column="0" 
+        <Label Content="Apellidos" Grid.Row="3" Grid.Column="0" 
                HorizontalAlignment="Center" VerticalAlignment="Center" 
                FontSize="15"></Label>
-        <TextBox Text="{Binding Apellidos}" Grid.Row="2" Grid.Column="1" 
+        <TextBox Text="{Binding Apellidos}" Grid.Row="3" Grid.Column="1" 
                  Width="150" Margin="10,20,10,20"></TextBox>
 
-        <Label Content="Promedio" Grid.Row="3" Grid.Column="0" 
+        <Label Content="Promedio" Grid.Row="4" Grid.Column="0" 
                HorizontalAlignment="Center" VerticalAlignment="Center" 
                FontSize="15"></Label>
-        <TextBox Text="{Binding Promedio}" Grid.Row="3" Grid.Column="1" Width="150" 
+        <TextBox Text="{Binding Promedio}" Grid.Row="4" Grid.Column="1" Width="150" 
                  Margin="10,20,10,20"></TextBox>
 
-        <Button Content="Agregar" Grid.Row="4" Grid.Column="0" 
+        <Button Content="Agregar" Grid.Row="5" Grid.Column="0" 
                 Margin="10,20,10,20" Command="{Binding AgregarCommand}"></Button>
 
-        <Button Content="Modificar" Grid.Row="4" Grid.Column="1" 
-                Margin="10,20,10,20"></Button>
+        <Button Content="Modificar" Grid.Row="5" Grid.Column="1" 
+                Margin="10,20,10,20" Command="{Binding ActualizarCommand}"></Button>
 
-        <Button Content="Eliminar" Grid.Row="4" Grid.Column="2" 
-                Margin="10,20,10,20"></Button>
+        <Button Content="Eliminar" Grid.Row="5" Grid.Column="2" 
+                Margin="10,20,10,20" Command="{Binding EliminarCommand}"></Button>
         
-        <Button Content="Limpiar" Grid.Row="4" Grid.Column="3" 
-                 Margin="10,20,10,20"></Button>
+        <Button Content="Limpiar" Grid.Row="5" Grid.Column="3" 
+                 Margin="10,20,10,20" Command="{Binding LimpiarCommand}"></Button>
         <DataGrid
             Grid.Row="1" Grid.Column="2"
-            Grid.ColumnSpan="2" Grid.RowSpan="3"
+            Grid.ColumnSpan="3" Grid.RowSpan="4"
             ItemsSource="{Binding Alumnos}"
             SelectedItem="{Binding AlumnoSeleccionado}"
-            AutoGenerateColumns="False">
+            AutoGenerateColumns="False"
+            Margin="10,0,10,0">
+
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre de Alumno" Binding="{Binding Nombre}" Width="200"></DataGridTextColumn>
                 <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}" Width="200"></DataGridTextColumn>
