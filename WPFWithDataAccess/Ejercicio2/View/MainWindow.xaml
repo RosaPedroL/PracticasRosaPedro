@@ -5,20 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewmodel="clr-namespace:ViewModel;assembly=ViewModel"
         xmlns:local="clr-namespace:View"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        mc:Ignorable="d" 
+        Title="ALUMNOS" Height="450" Width="800"
+        Icon="Imagenes\equipo.png">
     <Window.DataContext>
         <viewmodel:MainViewModel></viewmodel:MainViewModel>
     </Window.DataContext>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.9*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="0.2*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="30"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
@@ -28,56 +29,117 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            
         </Grid.RowDefinitions>
-        <Label Content="Registro de alumnos" Grid.Column="1"
-               Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center"
-               FontWeight="Bold" FontSize="25"></Label>
-        <Label Content="Id" Grid.Row="1" Grid.Column="0"
-              HorizontalAlignment="Center" VerticalAlignment="Center"
-              FontSize="15"></Label>
-        <TextBox Text="{Binding Id}" Grid.Row="1" Grid.Column="1" 
-                Width="150" Margin="5,20,5,20" FontWeight="Bold" ></TextBox>
-        <Label Content="Nombre" Grid.Row="2" Grid.Column="0"
-               HorizontalAlignment="Center" VerticalAlignment="Center"
-               FontSize="15"></Label>
-        <TextBox Text="{Binding Nombre}" Grid.Row="2" Grid.Column="1" Width="150"
-                 Margin="10,20,10,20"></TextBox>
-        
-        <Label Content="Apellidos" Grid.Row="3" Grid.Column="0" 
-               HorizontalAlignment="Center" VerticalAlignment="Center" 
-               FontSize="15"></Label>
-        <TextBox Text="{Binding Apellidos}" Grid.Row="3" Grid.Column="1" 
-                 Width="150" Margin="10,20,10,20"></TextBox>
+        <Border Grid.Row="2" Background="#134a71" BorderThickness="0,0,0,0" BorderBrush="#134a71"></Border>
+        <Border Grid.Row="3" Background="#eeeeee" BorderThickness="1,0,0,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="4" Background="#eeeeee" BorderThickness="1,0,0,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="5" Background="#eeeeee" BorderThickness="1,0,0,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="6" Background="#eeeeee" BorderThickness="1,0,0,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="7" Background="#eeeeee" BorderThickness="1,0,0,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="2" Grid.Column="1" Background="#134a71" BorderThickness="0,0,0,0" BorderBrush="#134a71"></Border>
+        <Border Grid.Row="3" Grid.Column="1" Background="#eeeeee" BorderThickness="0,0,1,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="4" Grid.Column="1" Background="#eeeeee" BorderThickness="0,0,1,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="5" Grid.Column="1" Background="#eeeeee" BorderThickness="0,0,1,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="6" Grid.Column="1" Background="#eeeeee" BorderThickness="0,0,1,0" BorderBrush="#d6d6d6"></Border>
+        <Border Grid.Row="7" Grid.Column="1" Background="#eeeeee" BorderThickness="0,0,1,1" BorderBrush="#d6d6d6"></Border>
+        <Image Grid.Column="3"  Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="Imagenes/equipo.png" Width="90" Height="90" Margin="15,0,0,0" VerticalAlignment="Top"/>
+        <Label Content="ALUMNOS" Grid.Column="2"
+               Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+               FontWeight="Bold" FontSize="22" FontFamily="Tahoma"></Label>
+        <Label Content="Registro de alumnos" Grid.Column="0" 
+               Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+               FontWeight="Medium" FontSize="20" FontFamily="Tahoma" Foreground="White"></Label>
+        <Label Content="Lista de alumnos" Grid.Column="3" 
+               Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2"
+               FontWeight="Bold" FontSize="20" FontFamily="Arial" Margin="10,0,0,0"></Label>
+        <Label Content="Id" Grid.Row="3" Grid.Column="0"
+               Style="{StaticResource AlumnLabelStyle}"></Label>
+        <TextBox Text="{Binding Id}" Grid.Row="3" Grid.Column="1" IsReadOnly="True" FontWeight="Bold" 
+                 Style="{StaticResource AlumnTextBoxStyle}"></TextBox>
+        <Label Content="Nombre" Grid.Row="4" Grid.Column="0"
+               Style="{StaticResource AlumnLabelStyle}"></Label>
+        <TextBox Text="{Binding Nombre}" Grid.Row="4" Grid.Column="1" 
+                 Style="{StaticResource AlumnTextBoxStyle}"></TextBox>
 
-        <Label Content="Promedio" Grid.Row="4" Grid.Column="0" 
-               HorizontalAlignment="Center" VerticalAlignment="Center" 
-               FontSize="15"></Label>
-        <TextBox Text="{Binding Promedio}" Grid.Row="4" Grid.Column="1" Width="150" 
-                 Margin="10,20,10,20"></TextBox>
+        <Label Content="Apellidos" Grid.Row="5" Grid.Column="0" 
+               Style="{StaticResource AlumnLabelStyle}"></Label>
+        <TextBox Text="{Binding Apellidos}" Grid.Row="5" Grid.Column="1" 
+                 Style="{StaticResource AlumnTextBoxStyle}"></TextBox>
 
-        <Button Content="Agregar" Grid.Row="5" Grid.Column="0" 
-                Margin="10,20,10,20" Command="{Binding AgregarCommand}"></Button>
+        <Label Content="Promedio" Grid.Row="6" Grid.Column="0" 
+               Style="{StaticResource AlumnLabelStyle}"></Label>
+        <TextBox Text="{Binding Promedio}" Grid.Row="6" Grid.Column="1" 
+                 Style="{StaticResource AlumnTextBoxStyle}"></TextBox>
 
-        <Button Content="Modificar" Grid.Row="5" Grid.Column="1" 
-                Margin="10,20,10,20" Command="{Binding ActualizarCommand}"></Button>
+        <Button Grid.Row="7" Grid.Column="0" Background="#347db4" BorderBrush="#347db4" HorizontalAlignment="Right" 
+                VerticalAlignment="Center" Style="{StaticResource AlumnButtonStyle}" Command="{Binding AgregarCommand}">
+            <ContentControl>
+                <ContentControl.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Icon/anadir.png" Width="24" Height="24" Margin="0,0,5,0"/>
+                        <TextBlock Text="AGREGAR"/>
+                    </StackPanel>
+                </ContentControl.Content>
+            </ContentControl>
+        </Button>
 
-        <Button Content="Eliminar" Grid.Row="5" Grid.Column="2" 
-                Margin="10,20,10,20" Command="{Binding EliminarCommand}"></Button>
-        
-        <Button Content="Limpiar" Grid.Row="5" Grid.Column="3" 
-                 Margin="10,20,10,20" Command="{Binding LimpiarCommand}"></Button>
+        <Button Grid.Row="7" Grid.Column="1" Background="#5b5b5b" BorderBrush="#5b5b5b"
+                  VerticalAlignment="Center" Margin="0,0,20,0" Style="{StaticResource AlumnButtonStyle}" 
+                Command="{Binding LimpiarCommand}">
+            <ContentControl>
+                <ContentControl.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Icon/limpiar.png" Width="24" Height="24" Margin="0,0,5,0"/>
+                        <TextBlock Text="LIMPIAR"/>
+                    </StackPanel>
+                </ContentControl.Content>
+            </ContentControl>
+        </Button>
+
+        <Button Grid.Row="2" Grid.Column="4" Background="#FFA500" BorderBrush="#FFA500" 
+                HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource AlumnButtonStyle}" 
+                Command="{Binding ActualizarCommand}">
+            <ContentControl>
+                <ContentControl.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Icon/editar.png" Width="24" Height="24" Margin="0,0,5,0"/>
+                        <TextBlock Text="ACTUALIZAR"/>
+                    </StackPanel>
+                </ContentControl.Content>
+            </ContentControl>
+        </Button>
+
+        <Button Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="4" Background="#AA0000" BorderBrush="#AA0000" 
+                 VerticalAlignment="Center" Margin="0,0,20,0" Style="{StaticResource AlumnButtonStyle}" 
+                Command="{Binding EliminarCommand}">
+            <ContentControl>
+                <ContentControl.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Icon/borrar.png" Width="24" Height="24" Margin="0,0,5,0"/>
+                        <TextBlock Text="ELIMINAR"/>
+                    </StackPanel>
+                </ContentControl.Content>
+            </ContentControl>
+        </Button>
+
         <DataGrid
-            Grid.Row="1" Grid.Column="2"
-            Grid.ColumnSpan="3" Grid.RowSpan="4"
+            Grid.Row="3" Grid.Column="3"
+            Grid.ColumnSpan="4" Grid.RowSpan="4"
             ItemsSource="{Binding Alumnos}"
             SelectedItem="{Binding AlumnoSeleccionado}"
             AutoGenerateColumns="False"
-            Margin="10,0,10,0">
-
+            Style="{StaticResource CustomDataGridStyle}">
+           
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Nombre de Alumno" Binding="{Binding Nombre}" Width="200"></DataGridTextColumn>
-                <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}" Width="200"></DataGridTextColumn>
-                <DataGridTextColumn Header="Promedio" Binding="{Binding Promedio}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="0.6*"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}" Width="0.6*"  
+                                    ElementStyle="{StaticResource CenteredCellStyle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Promedio" Binding="{Binding Promedio}" Width="0.6*" 
+                                    ElementStyle="{StaticResource CenteredCellStyle}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

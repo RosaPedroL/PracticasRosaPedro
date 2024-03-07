@@ -43,4 +43,5 @@ C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\
 C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\View\obj\Debug\View.csproj.CoreCompileInputs.cache
 C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\View\obj\Debug\View.exe
 C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\View\obj\Debug\View.pdb
-C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\View\obj\Debug\View.csproj.CopyComplete
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\View\obj\Debug\App.baml
+C:\Users\Rosa Maria\Downloads\DOCUMENTO NEW TALENT\Curso y capacitacion c sharp\PracticasRosaPedro\WPFWithDataAccess\Ejercicio2\View\obj\Debug\View.csproj.Up2Date

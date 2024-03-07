@@ -173,7 +173,7 @@ namespace ViewModel
             {
                 if (string.IsNullOrEmpty(Nombre) || string.IsNullOrEmpty(Apellidos) || Promedio == 0)
                 {
-                    result = MessageBox.Show("Uno de los campos estan vació, por favor verifique que este lleno los campos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    result = MessageBox.Show("Uno de los campos está vacío.Por favor, asegúrese de que todos los campos estén completos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
                 else
@@ -181,7 +181,7 @@ namespace ViewModel
                     if (_dataAcces.SearchFllAlumno(Nombre, Apellidos) == 0)
                     {
                         _dataAcces.SaveAlumno(alumno);//se guarda en la bd (2)
-                        result = MessageBox.Show("El dato se agrego correctamente", "Inf", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        result = MessageBox.Show("Los datos se han agregado correctamente.", "Información de la operación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Alumnos = _dataAcces.GetAlumnosList();//para actualizar la tabla con el nuevo datos (3)
                         LimpiarCampos();
                   
@@ -189,7 +189,7 @@ namespace ViewModel
                     }
                     else
                     {
-                        result = MessageBox.Show("Esta repetido el dato", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        result = MessageBox.Show("El dato está duplicado.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
             }
@@ -216,7 +216,7 @@ namespace ViewModel
             {
                 if (string.IsNullOrEmpty(Nombre) || string.IsNullOrEmpty(Apellidos) || Promedio == 0)
                 {
-                    result = MessageBox.Show("Uno de los campos estan vació, por favor verifique que este lleno los campos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    result = MessageBox.Show("Uno de los campos está vacío.Por favor, asegúrese de que todos los campos estén completos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
                 else
@@ -233,7 +233,7 @@ namespace ViewModel
                     _dataAcces.UpdateAlumno(alumno, out existe, out repetido);
                     if (existe == 1 & repetido == 0)
                     {
-                        result = MessageBox.Show("El dato se modifico", "Inf", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        result = MessageBox.Show("El dato se modifico", "Información de la operación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Alumnos = _dataAcces.GetAlumnosList(); //para actualizar la tabla con el nuevo datos (3)   
                                                                //AlumnoSeleccionado = null;
 
@@ -242,12 +242,12 @@ namespace ViewModel
                     {
                         if (existe == 0)
                         {
-                            result = MessageBox.Show("El dato no existe", "Detalle", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                            result = MessageBox.Show("El dato no existe.", "Detalle", MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
                         }
                         if (repetido == 1)
                         {
-                            result = MessageBox.Show("Esta repetido el dato", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            result = MessageBox.Show("El dato está duplicado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                         }
                     }
@@ -266,13 +266,13 @@ namespace ViewModel
                 int existe = _dataAcces.DeleteAlumno(Id);
                 if (existe == 1)
                 {
-                    result = MessageBox.Show("El dato se elimino correctament", "Inf", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    result = MessageBox.Show("El dato se ha eliminado correctamente.", "Información de la operación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Alumnos = _dataAcces.GetAlumnosList();
 
                 }
                 else
                 {
-                    result = MessageBox.Show("El dato no existe", "Detalle", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    result = MessageBox.Show("El dato no existe.", "Detalle", MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
                 }
 

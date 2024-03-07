@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B537B2-3A46-4C4F-A60D-D35533669668}|ViewModel\\ViewModel.csproj|c:\\users\\rosa maria\\downloads\\documento new talent\\curso y capacitacion c sharp\\practicasrosapedro\\wpfwithdataaccess\\ejercicio2\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B537B2-3A46-4C4F-A60D-D35533669668}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\view\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|solutionrelative:view\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|c:\\users\\rosa maria\\downloads\\documento new talent\\curso y capacitacion c sharp\\practicasrosapedro\\wpfwithdataaccess\\ejercicio2\\model\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|solutionrelative:model\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|c:\\users\\rosa maria\\downloads\\documento new talent\\curso y capacitacion c sharp\\practicasrosapedro\\wpfwithdataaccess\\ejercicio2\\model\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|solutionrelative:model\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|c:\\users\\rosa maria\\downloads\\documento new talent\\curso y capacitacion c sharp\\practicasrosapedro\\wpfwithdataaccess\\ejercicio2\\view\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\view\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|solutionrelative:view\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|c:\\users\\rosa maria\\downloads\\documento new talent\\curso y capacitacion c sharp\\practicasrosapedro\\wpfwithdataaccess\\ejercicio2\\view\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{86D7BEB0-CDA0-4FFD-8913-CB5918291C67}|View\\View.csproj|solutionrelative:view\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D0B537B2-3A46-4C4F-A60D-D35533669668}|ViewModel\\ViewModel.csproj|C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B537B2-3A46-4C4F-A60D-D35533669668}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\model\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|solutionrelative:model\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\model\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E30860-0425-47F1-A73A-3CD7DAEF474C}|Model\\Model.csproj|solutionrelative:model\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DataAccess.cs",
               "DocumentMoniker": "C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\Model\\DataAccess\\DataAccess.cs",
               "RelativeDocumentMoniker": "Model\\DataAccess\\DataAccess.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Model\\DataAccess\\DataAccess.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T23:05:12.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T23:05:12.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Alumno.cs",
               "DocumentMoniker": "C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\Model\\Alumno.cs",
               "RelativeDocumentMoniker": "Model\\Alumno.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "Model\\Alumno.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T20:32:07.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T20:32:07.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\View\\App.xaml",
               "RelativeDocumentMoniker": "View\\App.xaml",
@@ -100,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\View\\App.config",
               "RelativeDocumentMoniker": "View\\App.config",
               "ToolTip": "C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\View\\App.config",
               "RelativeToolTip": "View\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-03-04T19:01:45.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Rosa Maria\\Downloads\\DOCUMENTO NEW TALENT\\Curso y capacitacion c sharp\\PracticasRosaPedro\\WPFWithDataAccess\\Ejercicio2\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "ViewModel\\MainViewModel.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAowJ0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T18:43:25.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T18:43:25.072Z"
             }
           ]
         }

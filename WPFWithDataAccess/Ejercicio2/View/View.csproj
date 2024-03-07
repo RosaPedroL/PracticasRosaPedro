@@ -108,5 +108,20 @@
       <Name>ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\anadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\equipo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

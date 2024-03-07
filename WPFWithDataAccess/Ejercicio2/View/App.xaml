@@ -4,6 +4,98 @@
              xmlns:local="clr-namespace:View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Estilo para el encabezado de la columna del DataGrid -->
+        <Style x:Key="HeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#347db4"/>
+            <!-- Establecer el color de fondo del encabezado -->
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <!-- Centrar el contenido del encabezado -->
+            <Setter Property="Padding" Value="5"/>
+            <!-- Establecer el relleno del encabezado -->
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <!-- Establecer el grosor del borde en 0 -->
+        </Style>
+        <!-- Estilo para las celdas del DataGrid -->
+        <Style x:Key="CStyle"  TargetType="{x:Type DataGridCell}">
+            <Setter Property="BorderThickness" Value="0"/>
+            <!-- Establecer el grosor del borde en 0 -->
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#5d9dcd"/>
+                    <!-- Cambia el color de fondo de la celda seleccionada -->
+                    <Setter Property="Foreground" Value="White"/>
+                    <!-- Cambia el color del texto de la celda seleccionada -->
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <!-- Estilo para centrar el contenido de las celdas -->
+        <Style x:Key="CenteredCellStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="AlumnTextBoxStyle" TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Height" Value="23"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="TextAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Agrega más setters según sea necesario -->
+        </Style>
+        <Style x:Key="AlumnLabelStyle" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <!-- Agrega más setters según sea necesario -->
+        </Style>
+        <SolidColorBrush x:Key="ButtonNormalBackground" Color="Black"/>
+        <Style x:Key="AlumnButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="33"/>
+            <Setter Property="Width" Value="110"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Style.Triggers>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+            <!-- Agrega más setters según sea necesario -->
+        </Style>
+        <Style x:Key="CustomDataGridStyle" TargetType="DataGrid">
+            <!-- Establece el fondo del DataGrid -->
+            <Setter Property="Background" Value="#E0E0E0"/>
+            <!-- Establece el margen del DataGrid -->
+            <Setter Property="Margin" Value="10,0,15,0"/>
+            <!-- Establece el relleno del DataGrid -->
+            <Setter Property="Padding" Value="0"/>
+            <!-- Establece el número de colores de fila alternos -->
+            <Setter Property="AlternationCount" Value="2"/>
+            <!-- Establece el fondo de las filas -->
+            <Setter Property="RowBackground" Value="#FFFFFF"/>
+            <!-- Establece el fondo de las filas alternas -->
+            <Setter Property="AlternatingRowBackground" Value="#E0E0E0"/>
+            <!-- Establece el modo de selección -->
+            <Setter Property="SelectionMode" Value="Single"/>
+            <!-- Establece si el DataGrid es de solo lectura -->
+            <Setter Property="IsReadOnly" Value="True"/>
+            <!-- Establece si el usuario puede cambiar el tamaño de las columnas -->
+            <Setter Property="CanUserResizeColumns" Value="False"/>
+            <!-- Establece si el usuario puede cambiar el tamaño de las filas -->
+            <Setter Property="CanUserResizeRows" Value="False"/>
+            <!-- Agrega más setters según sea necesario -->
+            <Setter Property="ColumnHeaderStyle" Value="{StaticResource HeaderStyle}"/>
+            <!-- Establece el estilo de las celdas -->
+            <Setter Property="CellStyle" Value="{StaticResource CStyle}"/>
+        </Style>
     </Application.Resources>
 </Application>
